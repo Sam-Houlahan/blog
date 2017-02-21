@@ -1,4 +1,19 @@
 body {
-  background-image: url(blog2.jpg) ;
+  background-image: url(blog3.jpg) ;
   background-size: cover;
+}
+
+.ans {
+  text-align:center;
+  color:white;
+}
+
+.par {
+ color:#3baff7;
+ text-align:center;
+}
+
+h1 {
+  color:white;
+  text-align:center;
 }

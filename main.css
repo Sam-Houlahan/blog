@@ -1,1 +1,18 @@
-background-image: url(background.jpeg);
+body {
+  background-image: url(background.jpeg) ;
+  background-size: cover;
+}
+
+.jumbotron {
+background-color:transparent !important;
+}
+
+h1 {
+
+color:white;
+text-align: center;
+}
+.par {
+  text-align: center;
+  color:white;
+}

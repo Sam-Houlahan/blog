@@ -6,14 +6,46 @@ body {
 .ans {
   text-align:center;
   color:white;
+  font-family: 'Concert One', cursive;
 }
 
 .par {
  color:#3baff7;
  text-align:center;
+ font-family: 'Concert One', cursive;
 }
 
 h1 {
   color:white;
   text-align:center;
+font-family: 'Pacifico', cursive;
+  font-size:70px;
+}
+
+.footer {
+    background: black;
+    padding: 10px 0;
+    width:100%;
+    position: fixed;
+    bottom:0;
+
+}
+
+.footer a {
+    color: white;
+    font-size: 20px;
+    padding: 8px;
+    border-right: 1px solid white;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.footer a:first-child {
+    border-left: 1px solid white;
+}
+
+.footer a:hover {
+    color: #70726F;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
 }

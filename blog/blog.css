@@ -1,6 +1,8 @@
 body {
   background-image: url(blog1.jpeg) ;
   background-size: cover;
+  background-color: black;
+
 }
 
 .ans {
@@ -15,11 +17,11 @@ body {
  font-family: 'Concert One', cursive;
 }
 
-h1 {
+h2 {
   color:white;
   text-align:center;
 font-family: 'Pacifico', cursive;
-  font-size:70px;
+
 }
 
 .footer {
@@ -49,3 +51,18 @@ font-family: 'Pacifico', cursive;
     -webkit-transition: all .5s ease;
     transition: all .5s ease;
 }
+hr{
+  width: 100%;
+}
+
+
+
+        @media screen and (max-width: 767px) {
+            .sidenav {
+                height: auto;
+                padding: 15px;
+            }
+            .row.content {
+                height: auto;
+            }
+        }

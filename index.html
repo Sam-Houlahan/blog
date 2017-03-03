@@ -21,16 +21,24 @@
 
 <body>
     <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="blog/blog.html">Sam's Blog</a>
+
+        <div class="container">
+            <a class="navbar-brand" href="blog/blog.html">Sam's Blog</a>
+
+            <button class="navbar-toggle" data-toggle="collapse" data-target=".navCollapse" />
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+            </button>
+            <div class="collapse navbar-collapse navCollapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="../index.html">Home</a></li>
+                    <li><a href="blog/blog.html">Blog</a></li>
+
+
+                </ul>
             </div>
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="blog/blog.html">Blog</a></li>
-
-
-            </ul>
+        </div>
         </div>
     </nav>
     <div class="jumbotron">

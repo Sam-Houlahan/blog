@@ -1,6 +1,8 @@
 body {
-  background-image: url(blog3.jpg) ;
+
   background-size: cover;
+  background-color: grey ;
+
 }
 
 .ans {
@@ -13,13 +15,14 @@ body {
  color:#3baff7;
  text-align:center;
  font-family: 'Concert One', cursive;
+ font-size: 18px;
 }
 
-h1 {
+h2 {
   color:white;
   text-align:center;
 font-family: 'Pacifico', cursive;
-  font-size:70px;
+
 }
 
 .footer {
@@ -28,6 +31,7 @@ font-family: 'Pacifico', cursive;
     width:100%;
     position: fixed;
     bottom:0;
+    opacity: 0.7;
 
 }
 
@@ -49,3 +53,29 @@ font-family: 'Pacifico', cursive;
     -webkit-transition: all .5s ease;
     transition: all .5s ease;
 }
+hr{
+  width: 100%;
+}
+
+
+
+        @media screen and (max-width: 767px) {
+            .sidenav {
+                height: auto;
+                padding: 15px;
+            }
+            .row.content {
+                height: auto;
+            }
+        }
+
+        .navbar  {
+          opacity: 0.6;
+          background-color: black;
+        }
+          .active a {
+              background-color: grey !important;
+          }
+          .nav .navbar-nav ul{
+            color:grey;
+          }

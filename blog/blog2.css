@@ -16,11 +16,11 @@ background-position:center;
 .ans {
   text-align:center;
   color:white;
-  font-family: 'Pacifico', cursive;
+  font-family: 'Shrikhand', cursive;
 
   margin-top: 200px;
   margin-right: 50px;
-  font-size: 60px;
+  font-size: 50px;
 
 }
 
@@ -40,6 +40,7 @@ p {
     -webkit-margin-end: 0px;
     text-align: center;
     font-size: 15px;
+    font-family: 'Concert One', cursive;
 }
 
 h2 {
@@ -88,12 +89,29 @@ hr{
 .navbar  {
   opacity: 0.6;
   background-color: black;
+  z-index: 2;
 }
   .active a {
       background-color: grey !important;
   }
   .nav .navbar-nav ul{
     color:grey;
+
+  }
+  .wire{
+    width:320px;
+    height:420px;
+    display:inline-block;
+
+  }
+  .wires{
+    display: inline-block;
+  }
+  .wire2{
+    width:320px;
+    height:420px;
+    display:inline-block;
+
   }
 
 
@@ -112,4 +130,6 @@ hr{
               font-size: 20px;
 
             }
+
+
           }

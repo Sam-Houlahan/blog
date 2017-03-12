@@ -103,16 +103,17 @@ hr{
     height:420px;
     display:inline-block;
 
+
   }
   .wires{
     display: inline-block;
-  }
-  .wire2{
-    width:320px;
-    height:420px;
-    display:inline-block;
+
 
   }
+  .hor{
+    color:black;
+  }
+
 
 
 

@@ -40,9 +40,10 @@
                             <li><a href="blog4.html">HTML,CSS,DOM</a></li>
                             <li><a href="blog5.html">HTML,CSS,DOM pt 2</a></li>
                             <li><a href="blog6.html">Emotional Intelligence</a></li>
-                            <li class="active"><a href="blog7.html">Responsive Site's</a></li>
+                            <li><a href="blog7.html">Responsive Site's</a></li>
                             <li><a href="blog8.html">Emotional Intelligence pt 2</a></li>
-                            <li><a href="t4-javascript-basics.html">Javascript Basics</a></li>
+                            <li class="active"><a href="t4-javascript-basics.html">Javascript Basics</a></li>
+
 
                         </ul>
                     </li>
@@ -55,13 +56,14 @@
         </div>
     </nav>
 
-    <header class="header" style="background-image: url('blog8.jpg')">
+
+    <header class="header" style="background-image: url('blog10.jpeg')">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="post-heading">
-                        <h1 class="ans">Responsive Website's</h1>
-                        <h4 class="par"> <span class="glyphicon glyphicon-time"></span> Post by Sam Houlahan, March 08, 2017.<h4>
+                        <h1 class="ans">Javascript Basics</h1>
+                        <h4 class="par"> <span class="glyphicon glyphicon-time"></span> Posted by Sam Houlahan, March 16 2017.<h4>
                     </div>
                 </div>
             </div>
@@ -73,53 +75,44 @@
         <div class="row content">
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
-            <h3>What a responsive site is, and why responsiveness is important?</h3>
+            <h3> How does JavaScript compare to HTML and CSS?</h4>
+                        <p> HTML and CSS let you build and style the website, where as Javascript is the language used for user interactions and implementing features. The main difference I have found is Javascript allows for complex logic such as control
+                            flow and loops!. </p>
 
-            <p> A responsive site is when you develop your website to change around in order to suit the screensize you are viewing it on. This is a very important practice as most people in this age have multiple devices.<br>
-            It is essential your website looks amazing on any screensize. </p>
+                        <h3>Explain control flow and loops using an example process from everyday life, for example 'waking up' or 'brushing your teeth'.</h4>
+<p>In programming a control flow is referred too as a set of statement's that are executed depending on what conditions are met.
+An example of this in every day life would be a situation like going out to the movies. If were in the mood for comedy you would choose a movie from that category, If you wanted to be scared you would choose from the horror category. Else if you were not interested in going out to a movie you would stay home.
+<br><br>A loop is a process of repeating the same action until the condition is met. An example of this in everyday life would be the action of washing dishing. You repeat a washing/scrubbing action untll the conidtion that the dish is completely clean is met. For this loop you could also add the number of dishes so that the loop knows how many dishes need to be cleaned before it finishes. </p>
 
-            <h3>What mobile first design is, and why it's important?</h3>
-
-          <p> This is when you develop your website taking in mobile considerations first as opposed to desktop. This is becoming a more popular way for web development as so many users are viewing websites on their phones. </p>
-
-          <h3>  What frameworks are, and their pros and cons?</h3>
-
-            <p> A framework is a software designed to support the deveopment of websites or web applications. Pro's would be that using a framework will save you time by automating common activities performed in web development.
-              The cons would be that your website or web application may end up looking or functioning similar to someone else's project that is using the same framework.
-
-            </p>
-            <h3>  What a wireframe is and why we use it?</h3>
+                        <h3> Explain the difference between accessing data from arrays and objects.</h4>
+<p> With an array to access the data you would keep in mind that array's data indexing starts from 0 from here you specify the number of the element you want then surround it with brackets.
+<br>Example:<br>var myArr = ["Sam",23]; <br>Then to access the 2nd element you would use myArr[1];<br><br>
+To access data from an object you can use 2 different ways.<br>The first is the similar as accessing  data from an array the second is using a dot notation.
+<br> Example:<br>
+var myObj ={ firstname : "Sam"
+              secondname : "Houlahan"};<br>
+              First way to access  myObj[firstname]; <br>
+              Second way to access  myObj.firstname;<br>
 
 
-            <p> A wireframe in web development is similar to a blueprint and is an important step in any design process. Before you start developing it is essential that you and your client are on the same page, wireframing plays a big role in this as it is a mock up of what the finished product will look like. </p>
- <h3>The aspects of your wireframes you found difficult to implement, and why.</h3>
- <p> I did not add to many huge features so I found it fine. However when creating my wireframes I not realise I made the home page's a different size to the mobile page's. This created some hassle when positioning them on this page I did my best without havent to recreate them.
+</p>
 
-          </div>
 
+
+                        <h3>Explain what functions are and why they are useful;</h4>
+                        <p>Functions are very useful in javascript and programming in general. They alow you to build a block of code and reuse it anywhere in your program. A function will take a parameter or parameters and your function will take the value of what you entered in to account when it executes.
+                        <br>Example:<br>
+                    var sayHi =   function(){<br>
+                        console.log("Hello world");
+                      } <br>  you can easily call this function like this sayHi(); </p>
+
+                    </div>
 
 
 
                 </div>
             </div>
-            <div class="container-fluid">
-                <div class="row content">
-                  <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 text-center">
-<div class="wires" ><img class="wire img-responsive centre-block" src="wireframe-blog-page-desktop.png" alt=""></div>
-<div class="wires"><img class="wire img-responsive centre-block" src="../images/wireframe-blog-page-mobile.png" alt=""></div>
-
-<div class="wires"><img class="wire img-responsive centre-block" src="../images/wireframe-index-page-desktop.png" alt=""></div>
-<div class="wires"><img class="wire img-responsive centre-block" src="../images/wireframe-index-page-mobile.png" alt=""></div>
-
-
-                </div>
-              </div>
-            </div>
-        <hr>
-        <br><br><br>
-
-
-
+            <hr><br><br><br>
 
             <footer class="footer">
 

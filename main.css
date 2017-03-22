@@ -20,7 +20,10 @@ text-align: center;
   color:white;
   font-family: 'Pacifico', cursive;
 }
-
+ul{
+  font-size: 15px;
+  font-family: 'Concert One', cursive;
+}
 
 
 .footer {

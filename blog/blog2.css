@@ -115,8 +115,16 @@ hr{
   } ul{
     font-size: 15px;
     font-family: 'Concert One', cursive;
-  }
+    text-align: center;
+    list-style-type: none;
 
+  }
+  li{
+    text-align: center;
+  }
+h4{
+  text-align: center;
+}
 
 
 

@@ -44,14 +44,13 @@
                             <li><a href="blog8.html">Emotional Intelligence pt 2</a></li>
                             <li><a href="t4-javascript-basics.html">Javascript Basics</a></li>
                             <li><a href="c4-daily-mindfulness.html">Emotionial Intelligence pt 3</a></li>
-                            <li><a href="c5-self-confidence.html">Emotionial Intelligence pt 4</a></li>
-
+                            <li><a href="c5-self-confidence.html">Emotionial Intelligence pt 3</a></li>
                             <li><a href="t5-problem-solving.html">Problem Solving</a></li>
                             <li><a href="t6-js-language.html">Javascript Language</a></li>
-                            <li><a href="c6-control.html">Control</a></li>
-                            <li class="active"><a href="c7-motivation.html">Motivation</a></li>
-                            <li><a href="t7-scope.html">Scope</a></li>
 
+                            <li><a href="c6-control.html">Control</a></li>
+                            <li><a href="c7-motivation.html">Motivation</a></li>
+                            <li class="active"><a href="t7-scope.html">Scope</a></li>
 
 
 
@@ -67,13 +66,14 @@
         </div>
     </nav>
 
-    <header class="header" style="background-image: url('blog17.jpg')">
+
+    <header class="header" style="background-image: url('blog20.jpg')">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="post-heading">
-                        <h1 class="ans">Motivation <br></h1>
-                        <h4 class="par"> <span class="glyphicon glyphicon-time"></span> Post by Sam Houlahan, 09 April, 2017.<h4>
+                        <h1 class="ans">Scope</h1>
+                        <h4 class="par"> <span class="glyphicon glyphicon-time"></span> Posted by Sam Houlahan, April 13th 2017.<h4>
                     </div>
                 </div>
             </div>
@@ -85,27 +85,40 @@
         <div class="row content">
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
-            <h3> How does life look through the 'pleasure, passion and purpose' lens? </h3>
-            <p> I found this was a good way of thinking. As so many people in life are driven to the pleasure however they forget or they arent aware that higher purpose and passion are alot more important.
-              I feel happy that I have finally found my passion and I love being in the flow when programming nothing beats it!. Will be great to be able to make a living doing something I enjoy.
-            </p>
-            <h3> From the 'discovering values and higher purpose' exercise, what are your core values? What do you stand for?
-</h3>
-            <p>
-              <ul>
-                <li>Honesty</li>
-                <li>Effort</li>
-                <li>Integrity</li>
-                <li>Loyalty</li>
-                <li>Respect</li>
-              </ul>
-              <p>I stand for friendships,love,peace,humor and being happy.</p>
-            </p>
-            <h3>How did you find the resilience ideas and meditation exercise?</h3>
-<p>I thought the resilience metaphor was interesting and very true in an emotional sense, I like how he encourages to access our inner calm.
-The meditation practice in this chapter was very different, it felt weird at first to be thinking of memories of failure as they aren't nice but when mixed with the successful memories it made for an intresting experience. </p>
+            <h3>  What is 'scope', and how does it work in Javascript?</h4>
+                        <p>
+                            No it is not meaning a sniper scope!.Scope in programming in general is referring to where you can use your variables in your code. In terms of Javascript it is referring to the global scope and the local scope.
 
-          </div>
+                            <br><br><strong>Global Scope:</strong>
+
+                            <br> All variables declared outside of a function are defaulted to the global scope which means you can use them wherever you may please in your program.
+
+                            <br> <code>
+                                <br>let imGlobal = 'hi';
+
+                                <br>function checkIfGlobal(){<br>
+                                  console.log(imGlobal);
+                                } <br>
+                                checkIfGlobal(); // hi
+                              </code>
+                            <br><br><strong>Local Scope:</strong>
+
+                            <br>All variables declared inside of a function are only able to be used in that function.
+                            <br><code>
+                              <br>function checkIfLocal(){
+                                   <br>let imLocal = 'hello';
+
+                              }
+                              <br>console.log(let);
+
+                            <br></code>
+                            <br>This would return undefined as imLocal is declared in the function.
+                        </p>
+
+
+
+                    </div>
+
 
 
                 </div>
@@ -125,3 +138,5 @@ The meditation practice in this chapter was very different, it felt weird at fir
                 </div>
                 <!--End container-->
             </footer>
+
+</body>
